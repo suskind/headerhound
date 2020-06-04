@@ -1,0 +1,991 @@
+[{
+  "signature": "23 21",
+  "extension": null,
+  "offset": 0,
+  "description": "Script or data to be passed to the program following the shebang (#!).",
+  "variable": false
+}, {
+  "signature": "a1 b2 c3 d4",
+  "extension": ["pcap"],
+  "offset": 0,
+  "description": "Libpcap File Format",
+  "variable": false
+}, {
+  "signature": "d4 c3 b2 a1",
+  "extension": ["pcap"],
+  "offset": 0,
+  "description": "Libpcap File Format",
+  "variable": false
+}, {
+  "signature": "0a 0d 0d 0a",
+  "extension": ["pcapng"],
+  "offset": 0,
+  "description": "PCAP Next Generation Dump File Format",
+  "variable": false
+}, {
+  "signature": "ed ab ee db",
+  "extension": ["rpm"],
+  "offset": 0,
+  "description": "RedHat Package Manager (RPM) package",
+  "variable": false
+}, {
+  "signature": "53 51 4c 69 74 65 20 66 6f 72 6d 61 74 20 33 00",
+  "extension": ["sqlitedb", "sqlite", "db"],
+  "offset": 0,
+  "description": "SQLite Database",
+  "variable": false
+}, {
+  "signature": "53 50 30 31",
+  "extension": ["bin"],
+  "offset": 0,
+  "description": "Amazon Kindle Update Package",
+  "variable": false
+}, {
+  "signature": "00",
+  "extension": ["PIC", "PIF", "SEA", "YTR"],
+  "offset": 0,
+  "description": "IBM Storyboard bitmap file Windows Program Information File Mac Stuffit Self-Extracting Archive IRIS OCR data file",
+  "variable": false
+}, {
+  "signature": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+  "extension": ["PDB"],
+  "offset": 11,
+  "description": "PalmPilot Database/Document File",
+  "variable": false
+}, {
+  "signature": "BE BA FE CA",
+  "extension": ["DBA"],
+  "offset": 0,
+  "description": "Palm Desktop Calendar Archive",
+  "variable": false
+}, {
+  "signature": "00 01 42 44",
+  "extension": ["DBA"],
+  "offset": 0,
+  "description": "Palm Desktop To Do Archive",
+  "variable": false
+}, {
+  "signature": "00 01 44 54",
+  "extension": ["TDA"],
+  "offset": 0,
+  "description": "Palm Desktop Calendar Archive",
+  "variable": false
+}, {
+  "signature": "54 44 46 24",
+  "extension": ["TDF$"],
+  "offset": 0,
+  "description": "Telegram Desktop File",
+  "variable": false
+}, {
+  "signature": "54 44 45 46",
+  "extension": ["TDEF"],
+  "offset": 0,
+  "description": "Telegram Desktop Encrypted File",
+  "variable": false
+}, {
+  "signature": "00 01 00 00",
+  "extension": null,
+  "offset": 0,
+  "description": "Palm Desktop Data File (Access format)",
+  "variable": false
+}, {
+  "signature": "00 00 01 00",
+  "extension": ["ico"],
+  "offset": 0,
+  "description": "Computer icon encoded in ICO file format",
+  "variable": false
+}, {
+  "signature": "66 74 79 70 33 67",
+  "extension": ["3gp", "3g2"],
+  "offset": 4,
+  "description": "3rd Generation Partnership Project 3GPP and 3GPP2 multimedia files",
+  "variable": false
+}, {
+  "signature": "1F 9D",
+  "extension": ["z", "tar.z"],
+  "offset": 0,
+  "description": "compressed file (often tar zip) using Lempel-Ziv-Welch algorithm",
+  "variable": false
+}, {
+  "signature": "1F A0",
+  "extension": ["z", "tar.z"],
+  "offset": 0,
+  "description": "Compressed file (often tar zip) using LZH algorithm",
+  "variable": false
+}, {
+  "signature": "42 41 43 4B 4D 49 4B 45 44 49 53 4B",
+  "extension": ["bac"],
+  "offset": 0,
+  "description": "File or tape containing a backup done with AmiBack on an Amiga. It typically is paired with an index file (idx) with the table of contents.",
+  "variable": false
+}, {
+  "signature": "42 5A 68",
+  "extension": ["bz2"],
+  "offset": 0,
+  "description": "Compressed file using Bzip2 algorithm",
+  "variable": false
+}, {
+  "signature": "47 49 46 38 37 61",
+  "extension": ["gif"],
+  "offset": 0,
+  "description": "Image file encoded in the Graphics Interchange Format (GIF)",
+  "variable": false
+}, {
+  "signature": "47 49 46 38 39 61",
+  "extension": ["gif"],
+  "offset": 0,
+  "description": "Image file encoded in the Graphics Interchange Format (GIF)",
+  "variable": false
+}, {
+  "signature": "49 49 2A 00",
+  "extension": ["tif", "tiff"],
+  "offset": 0,
+  "description": "Tagged Image File Format",
+  "variable": false
+}, {
+  "signature": "4D 4D 00 2A",
+  "extension": ["tif", "tiff"],
+  "offset": 0,
+  "description": "Tagged Image File Format",
+  "variable": false
+}, {
+  "signature": "49 49 2A 00 10 00 00 00 43 52",
+  "extension": ["cr2"],
+  "offset": 0,
+  "description": "Canon RAW Format Version 2 Canon's RAW format is based on the TIFF file format",
+  "variable": false
+}, {
+  "signature": "80 2A 5F D7",
+  "extension": ["cin"],
+  "offset": 0,
+  "description": "Kodak Cineon image",
+  "variable": false
+}, {
+  "signature": "52 4E 43 01",
+  "extension": null,
+  "offset": 0,
+  "description": "Compressed file using Rob Northen Compression (version 1 and 2) algorithm",
+  "variable": false
+}, {
+  "signature": "52 4E 43 02",
+  "extension": null,
+  "offset": 0,
+  "description": "Compressed file using Rob Northen Compression (version 1 and 2) algorithm",
+  "variable": false
+}, {
+  "signature": "53 44 50 58",
+  "extension": ["dpx"],
+  "offset": 0,
+  "description": "SMPTE DPX image",
+  "variable": false
+}, {
+  "signature": "58 50 44 53",
+  "extension": ["dpx"],
+  "offset": 0,
+  "description": "SMPTE DPX image",
+  "variable": false
+}, {
+  "signature": "76 2F 31 01",
+  "extension": ["exr"],
+  "offset": 0,
+  "description": "OpenEXR image",
+  "variable": false
+}, {
+  "signature": "42 50 47 FB",
+  "extension": ["bpg"],
+  "offset": 0,
+  "description": "Better Portable Graphics format",
+  "variable": false
+}, {
+  "signature": "FF D8 FF DB",
+  "extension": ["jpg", "jpeg"],
+  "offset": 0,
+  "description": "JPEG raw or in the JFIF or Exif file format",
+  "variable": false
+}, {
+  "signature": "FF D8 FF E0 00 10 4A 46 49 46 00 01",
+  "extension": ["jpg", "jpeg"],
+  "offset": 0,
+  "description": "JPEG raw or in the JFIF or Exif file format",
+  "variable": false
+}, {
+  "signature": "FF D8 FF E1 ?? ?? 45 78 69 66 00 00",
+  "extension": ["jpg", "jpeg"],
+  "offset": 0,
+  "description": "JPEG raw or in the JFIF or Exif file format",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 49 4C 42 4D",
+  "extension": ["ilbm", "lbm", "ibm", "iff"],
+  "offset": 0,
+  "description": "IFF Interleaved Bitmap Image",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 38 53 56 58",
+  "extension": ["8svx", "8sv", "svx", "snd", "iff"],
+  "offset": 0,
+  "description": "IFF 8-Bit Sampled Voice",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 41 43 42 4D",
+  "extension": ["acbm", "iff"],
+  "offset": 0,
+  "description": "Amiga Contiguous Bitmap",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 41 4E 42 4D",
+  "extension": ["anbm", "iff"],
+  "offset": 0,
+  "description": "IFF Animated Bitmap",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ??  41 4E 49 4D",
+  "extension": ["anim", "iff"],
+  "offset": 0,
+  "description": "IFF CEL Animation",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 46 41 58 58",
+  "extension": ["faxx", "fax", "iff"],
+  "offset": 0,
+  "description": "IFF Facsimile Image",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 46 54 58 54",
+  "extension": ["ftxt", "iff"],
+  "offset": 0,
+  "description": "IFF Formatted Text",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 53 4D 55 53",
+  "extension": ["smus", "smu", "mus", "iff"],
+  "offset": 0,
+  "description": "IFF Simple Musical Score",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 43 4D 55 53",
+  "extension": ["cmus", "mus", "iff"],
+  "offset": 0,
+  "description": "IFF Musical Score",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 59 55 56 4E",
+  "extension": ["yuvn", "yuv", "iff"],
+  "offset": 0,
+  "description": "IFF YUV Image",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 46 41 4E 54",
+  "extension": ["iff"],
+  "offset": 0,
+  "description": "Amiga Fantavision Movie",
+  "variable": true
+}, {
+  "signature": "46 4F 52 4D ?? ?? ?? ?? 41 49 46 46",
+  "extension": ["aiff", "aif", "aifc", "snd", "iff"],
+  "offset": 0,
+  "description": "Audio Interchange File Format",
+  "variable": true
+}, {
+  "signature": "49 4E 44 58",
+  "extension": ["idx"],
+  "offset": 0,
+  "description": "Index file to a file or tape containing a backup done with AmiBack on an Amiga.",
+  "variable": false
+}, {
+  "signature": "4C 5A 49 50",
+  "extension": ["lz"],
+  "offset": 0,
+  "description": "lzip compressed file",
+  "variable": false
+}, {
+  "signature": "4D 5A",
+  "extension": ["exe", "dll"],
+  "offset": 0,
+  "description": "DOS MZ executable file format and its descendants (including NE and PE)",
+  "variable": false
+}, {
+  "signature": "50 4B 03 04",
+  "extension": ["zip", "aar", "apk", "docx", "epub", "ipa", "jar", "kmz", "maff", "odp", "ods", "odt", "pk3", "pk4", "pptx", "usdz", "vsdx", "xlsx", "xpi"],
+  "offset": 0,
+  "description": "zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML",
+  "variable": false
+}, {
+  "signature": "50 4B 05 06",
+  "extension": ["zip", "aar", "apk", "docx", "epub", "ipa", "jar", "kmz", "maff", "odp", "ods", "odt", "pk3", "pk4", "pptx", "usdz", "vsdx", "xlsx", "xpi"],
+  "offset": 0,
+  "description": "zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML",
+  "variable": false
+}, {
+  "signature": "50 4B 07 08",
+  "extension": ["zip", "aar", "apk", "docx", "epub", "ipa", "jar", "kmz", "maff", "odp", "ods", "odt", "pk3", "pk4", "pptx", "usdz", "vsdx", "xlsx", "xpi"],
+  "offset": 0,
+  "description": "zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML",
+  "variable": false
+}, {
+  "signature": "52 61 72 21 1A 07 00",
+  "extension": ["rar"],
+  "offset": 0,
+  "description": "RAR archive version 1.50 onwards",
+  "variable": false
+}, {
+  "signature": "52 61 72 21 1A 07 01 00",
+  "extension": ["rar"],
+  "offset": 0,
+  "description": "RAR archive version 5.0 onwards",
+  "variable": false
+}, {
+  "signature": "5A 4D",
+  "extension": ["exe"],
+  "offset": 0,
+  "description": "DOS ZM executable file format and its descendants (rare)",
+  "variable": false
+}, {
+  "signature": "7F 45 4C 46",
+  "extension": null,
+  "offset": 0,
+  "description": "Executable and Linkable Format",
+  "variable": false
+}, {
+  "signature": "89 50 4E 47 0D 0A 1A 0A",
+  "extension": ["png"],
+  "offset": 0,
+  "description": "Image encoded in the Portable Network Graphics format",
+  "variable": false
+}, {
+  "signature": "C9",
+  "extension": ["com"],
+  "offset": 0,
+  "description": "CP/M 3 and higher with overlays",
+  "variable": false
+}, {
+  "signature": "CA FE BA BE",
+  "extension": ["class"],
+  "offset": 0,
+  "description": "Java class file, Mach-O Fat Binary",
+  "variable": false
+}, {
+  "signature": "EF BB BF",
+  "extension": null,
+  "offset": 0,
+  "description": "UTF-8 encoded Unicode byte order mark, commonly seen in text files.",
+  "variable": false
+}, {
+  "signature": "FE ED FA CE",
+  "extension": null,
+  "offset": 0,
+  "description": "Mach-O binary (32-bit)",
+  "variable": false
+}, {
+  "signature": "FE ED FA CF",
+  "extension": null,
+  "offset": 0,
+  "description": "Mach-O binary (64-bit)",
+  "variable": false
+}, {
+  "signature": "FE ED FE ED",
+  "extension": null,
+  "offset": 0,
+  "description": "JKS JavakeyStore",
+  "variable": false
+}, {
+  "signature": "CE FA ED FE",
+  "extension": null,
+  "offset": 0,
+  "description": "Mach-O binary (reverse byte ordering scheme, 32-bit)",
+  "variable": false
+}, {
+  "signature": "CF FA ED FE",
+  "extension": null,
+  "offset": 0,
+  "description": "Mach-O binary (reverse byte ordering scheme, 64-bit)",
+  "variable": false
+}, {
+  "signature": "FF FE",
+  "extension": null,
+  "offset": 0,
+  "description": "Byte-order mark for text file encoded in little-endian 16-bit Unicode Transfer Format",
+  "variable": false
+}, {
+  "signature": "FF FE 00 00",
+  "extension": null,
+  "offset": 0,
+  "description": "Byte-order mark for text file encoded in little-endian 32-bit Unicode Transfer Format",
+  "variable": false
+}, {
+  "signature": "25 21 50 53",
+  "extension": ["ps"],
+  "offset": 0,
+  "description": "PostScript document",
+  "variable": false
+}, {
+  "signature": "49 54 53 46 03 00 00 00 60 00 00 00",
+  "extension": ["chm"],
+  "offset": 0,
+  "description": "MS Windows HtmlHelp Data",
+  "variable": false
+}, {
+  "signature": "25 50 44 46 2d",
+  "extension": ["pdf"],
+  "offset": 0,
+  "description": "PDF document",
+  "variable": false
+}, {
+  "signature": "30 26 B2 75 8E 66 CF 11 A6 D9 00 AA 00 62 CE 6C",
+  "extension": ["asf", "wma", "wmv"],
+  "offset": 0,
+  "description": "Advanced Systems Format",
+  "variable": false
+}, {
+  "signature": "24 53 44 49 30 30 30 31",
+  "extension": null,
+  "offset": 0,
+  "description": "System Deployment Image, a disk image format used by Microsoft",
+  "variable": false
+}, {
+  "signature": "4F 67 67 53",
+  "extension": ["ogg", "oga", "ogv"],
+  "offset": 0,
+  "description": "Ogg, an open source media container format",
+  "variable": false
+}, {
+  "signature": "38 42 50 53",
+  "extension": ["psd"],
+  "offset": 0,
+  "description": "Photoshop Document file, Adobe Photoshop's native file format",
+  "variable": false
+}, {
+  "signature": "52 49 46 46 ?? ?? ?? ?? 57 41 56 45",
+  "extension": ["wav"],
+  "offset": 0,
+  "description": "Waveform Audio File Format",
+  "variable": true
+}, {
+  "signature": "52 49 46 46 ?? ?? ?? ?? 41 56 49 20",
+  "extension": ["avi"],
+  "offset": 0,
+  "description": "Audio Video Interleave video format",
+  "variable": true
+}, {
+  "signature": "FF FB",
+  "extension": ["mp3"],
+  "offset": 0,
+  "description": "MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which's appended at the end of the file)",
+  "variable": false
+}, {
+  "signature": "FF F3",
+  "extension": ["mp3"],
+  "offset": 0,
+  "description": "MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which's appended at the end of the file)",
+  "variable": false
+}, {
+  "signature": "FF F2",
+  "extension": ["mp3"],
+  "offset": 0,
+  "description": "MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which's appended at the end of the file)",
+  "variable": false
+}, {
+  "signature": "49 44 33",
+  "extension": ["mp3"],
+  "offset": 0,
+  "description": "MP3 file with an ID3v2 container",
+  "variable": false
+}, {
+  "signature": "42 4D",
+  "extension": ["bmp", "dib"],
+  "offset": 0,
+  "description": "BMP file, a bitmap format used mostly in the Windows world",
+  "variable": false
+}, {
+  "signature": "43 44 30 30 31",
+  "extension": ["iso"],
+  "offset": 0,
+  "description": "ISO9660 CD/DVD image file",
+  "variable": false
+}, {
+  "signature": "53 49 4D 50 4C 45 20 20",
+  "extension": ["fits"],
+  "offset": 0,
+  "description": "Flexible Image Transport System (FITS)",
+  "variable": false
+}, {
+  "signature": "3D 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 54",
+  "extension": ["fits"],
+  "offset": 0,
+  "description": "Flexible Image Transport System (FITS)",
+  "variable": false
+}, {
+  "signature": "66 4C 61 43",
+  "extension": ["flac"],
+  "offset": 0,
+  "description": "Free Lossless Audio Codec",
+  "variable": false
+}, {
+  "signature": "4D 54 68 64",
+  "extension": ["mid", "midi"],
+  "offset": 0,
+  "description": "MIDI sound file",
+  "variable": false
+}, {
+  "signature": "D0 CF 11 E0 A1 B1 1A E1",
+  "extension": ["doc", "xls", "ppt", "msg"],
+  "offset": 0,
+  "description": "Compound File Binary Format, a container format used for document by older versions of Microsoft Office.  It is however an open format used by other programs as well.",
+  "variable": false
+}, {
+  "signature": "64 65 78 0A 30 33 35 00",
+  "extension": ["dex"],
+  "offset": 0,
+  "description": "Dalvik Executable",
+  "variable": false
+}, {
+  "signature": "4B 44 4D",
+  "extension": ["vmdk"],
+  "offset": 0,
+  "description": "VMDK files",
+  "variable": false
+}, {
+  "signature": "43 72 32 34",
+  "extension": ["crx"],
+  "offset": 0,
+  "description": "Google Chrome extension  or packaged app",
+  "variable": false
+}, {
+  "signature": "41 47 44 33",
+  "extension": ["fh8"],
+  "offset": 0,
+  "description": "FreeHand 8 document",
+  "variable": false
+}, {
+  "signature": "05 07 00 00 42 4F 42 4F 05 07 00 00 00 00 00 00 00 00 00 00 00 01",
+  "extension": ["cwk"],
+  "offset": 0,
+  "description": "AppleWorks 5 document",
+  "variable": false
+}, {
+  "signature": "06 07 E1 00 42 4F 42 4F 06 07 E1 00 00 00 00 00 00 00 00 00 00 01",
+  "extension": ["cwk"],
+  "offset": 0,
+  "description": "AppleWorks 6 document",
+  "variable": false
+}, {
+  "signature": "45 52 02 00 00 00",
+  "extension": ["toast"],
+  "offset": 0,
+  "description": "Roxio Toast disc image file, also some .dmg-files begin with same bytes",
+  "variable": false
+}, {
+  "signature": "8B 45 52 02 00 00 00",
+  "extension": ["toast"],
+  "offset": 0,
+  "description": "Roxio Toast disc image file, also some .dmg-files begin with same bytes",
+  "variable": false
+}, {
+  "signature": "78 01 73 0D 62 62 60",
+  "extension": ["dmg"],
+  "offset": 0,
+  "description": "Apple Disk Image file",
+  "variable": false
+}, {
+  "signature": "78 61 72 21",
+  "extension": ["xar"],
+  "offset": 0,
+  "description": "eXtensible ARchive format",
+  "variable": false
+}, {
+  "signature": "50 4D 4F 43 43 4D 4F 43",
+  "extension": ["dat"],
+  "offset": 0,
+  "description": "Windows Files And Settings Transfer Repository  See also USMT 3.0 (Win XP)  and USMT 4.0 (Win 7)  User Guides",
+  "variable": false
+}, {
+  "signature": "4E 45 53 1A",
+  "extension": ["nes"],
+  "offset": 0,
+  "description": "Nintendo Entertainment System ROM file",
+  "variable": false
+}, {
+  "signature": "75 73 74 61 72 00 30 30",
+  "extension": ["tar"],
+  "offset": 0,
+  "description": "tar archive",
+  "variable": false
+}, {
+  "signature": "75 73 74 61 72 20 20 00",
+  "extension": ["tar"],
+  "offset": 0,
+  "description": "tar archive",
+  "variable": false
+}, {
+  "signature": "4F 41 52 ??",
+  "extension": ["oar"],
+  "offset": 0,
+  "description": "OAR file archive format, where ?? is the format version.",
+  "variable": true
+}, {
+  "signature": "74 6F 78 33",
+  "extension": ["tox"],
+  "offset": 0,
+  "description": "Open source portable voxel file",
+  "variable": false
+}, {
+  "signature": "4D 4C 56 49",
+  "extension": ["MLV"],
+  "offset": 0,
+  "description": "Magic Lantern Video file",
+  "variable": false
+}, {
+  "signature": "44 43 4D 01 50 41 33 30",
+  "extension": null,
+  "offset": 0,
+  "description": "Windows Update Binary Delta Compression",
+  "variable": false
+}, {
+  "signature": "37 7A BC AF 27 1C",
+  "extension": ["7z"],
+  "offset": 0,
+  "description": "7-Zip File Format",
+  "variable": false
+}, {
+  "signature": "1F 8B",
+  "extension": ["gz", "tar.gz"],
+  "offset": 0,
+  "description": "GZIP compressed file",
+  "variable": false
+}, {
+  "signature": "FD 37 7A 58 5A 00",
+  "extension": ["xz", "tar.xz"],
+  "offset": 0,
+  "description": "XZ compression utility using LZMA2 compression",
+  "variable": false
+}, {
+  "signature": "04 22 4D 18",
+  "extension": ["lz4"],
+  "offset": 0,
+  "description": "LZ4 Frame Format  Remark: LZ4 block format does not offer any magic bytes.",
+  "variable": false
+}, {
+  "signature": "4D 53 43 46",
+  "extension": ["cab"],
+  "offset": 0,
+  "description": "Microsoft Cabinet file",
+  "variable": false
+}, {
+  "signature": "53 5A 44 44 88 F0 27 33",
+  "extension": ["ex_"],
+  "offset": 0,
+  "description": "Microsoft compressed file in Quantum format, used prior to Windows XP.  File can be decompressed using Extract.exe or Expand.exe distributed with earlier versions of Windows.",
+  "variable": false
+}, {
+  "signature": "46 4C 49 46",
+  "extension": ["flif"],
+  "offset": 0,
+  "description": "Free Lossless Image Format",
+  "variable": false
+}, {
+  "signature": "1A 45 DF A3",
+  "extension": ["mkv", "mka", "mks", "mk3d", "webm"],
+  "offset": 0,
+  "description": "Matroska media container, including WebM",
+  "variable": false
+}, {
+  "signature": "4D 49 4C 20",
+  "extension": ["stg"],
+  "offset": 0,
+  "description": "\"SEAN : Session Analysis\" Training file. Also used in compatible software \"Rpw : Rowperfect for Windows\" and \"RP3W : ROWPERFECT3 for Windows\".",
+  "variable": false
+}, {
+  "signature": "41 54 26 54 46 4F 52 4D ?? ?? ?? ?? 44 4A 56",
+  "extension": ["djvu", "djv"],
+  "offset": 0,
+  "description": "DjVu documentThe following byte is either 55 (U) for single-page or 4D (M) for multi-page documents.",
+  "variable": true
+}, {
+  "signature": "30 82",
+  "extension": ["der"],
+  "offset": 0,
+  "description": "DER encoded X.509 certificate",
+  "variable": false
+}, {
+  "signature": "44 49 43 4D",
+  "extension": ["dcm"],
+  "offset": 0,
+  "description": "DICOM Medical File Format",
+  "variable": false
+}, {
+  "signature": "77 4F 46 46",
+  "extension": ["woff"],
+  "offset": 0,
+  "description": "WOFF File Format 1.0",
+  "variable": false
+}, {
+  "signature": "77 4F 46 32",
+  "extension": ["woff2"],
+  "offset": 0,
+  "description": "WOFF File Format 2.0",
+  "variable": false
+}, {
+  "signature": "3c 3f 78 6d 6c 20",
+  "extension": ["XML"],
+  "offset": 0,
+  "description": "eXtensible Markup Language when using the ASCII character encoding",
+  "variable": false
+}, {
+  "signature": "00 61 73 6d",
+  "extension": ["wasm"],
+  "offset": 0,
+  "description": "WebAssembly binary format",
+  "variable": false
+}, {
+  "signature": "cf 84 01",
+  "extension": ["lep"],
+  "offset": 0,
+  "description": "Lepton compressed JPEG image",
+  "variable": false
+}, {
+  "signature": "43 57 53",
+  "extension": ["swf"],
+  "offset": 0,
+  "description": "flash .swf",
+  "variable": false
+}, {
+  "signature": "46 57 53",
+  "extension": ["swf"],
+  "offset": 0,
+  "description": "flash .swf",
+  "variable": false
+}, {
+  "signature": "21 3C 61 72 63 68 3E",
+  "extension": ["deb"],
+  "offset": 0,
+  "description": "linux deb file",
+  "variable": false
+}, {
+  "signature": "52 49 46 46 ?? ?? ?? ?? 57 45 42 50",
+  "extension": ["webp"],
+  "offset": 0,
+  "description": "Google WebP image file, where ?? ?? ?? ?? is the file size. More informarion on WebP File Header",
+  "variable": true
+}, {
+  "signature": "27 05 19 56",
+  "extension": null,
+  "offset": 0,
+  "description": "U-Boot / uImage. Das U-Boot Universal Boot Loader.",
+  "variable": false
+}, {
+  "signature": "7B 5C 72 74 66 31",
+  "extension": ["rtf"],
+  "offset": 0,
+  "description": "Rich Text Format",
+  "variable": false
+}, {
+  "signature": "54 41 50 45",
+  "extension": null,
+  "offset": 0,
+  "description": "Microsoft Tape Format",
+  "variable": false
+}, {
+  "signature": "47",
+  "extension": ["ts", "tsv", "tsa"],
+  "offset": 0,
+  "description": "MPEG Transport Stream  (MPEG-2 Part 1)",
+  "variable": false
+}, {
+  "signature": "00 00 01 BA",
+  "extension": ["m2p", "vob"],
+  "offset": 0,
+  "description": "MPEG Program Stream  (MPEG-1 Part 1 (essentially identical) and MPEG-2 Part 1)",
+  "variable": false
+}, {
+  "signature": "00 00 01 BA",
+  "extension": ["mpg", "mpeg"],
+  "offset": 0,
+  "description": "MPEG Program Stream MPEG Transport Stream MPEG-1 video and MPEG-2 video  (MPEG-1 Part 2 and MPEG-2 Part 2)",
+  "variable": false
+}, {
+  "signature": "47",
+  "extension": ["mpg", "mpeg"],
+  "offset": 0,
+  "description": "MPEG Program Stream MPEG Transport Stream MPEG-1 video and MPEG-2 video  (MPEG-1 Part 2 and MPEG-2 Part 2)",
+  "variable": false
+}, {
+  "signature": "00 00 01 B3",
+  "extension": ["mpg", "mpeg"],
+  "offset": 0,
+  "description": "MPEG Program Stream MPEG Transport Stream MPEG-1 video and MPEG-2 video  (MPEG-1 Part 2 and MPEG-2 Part 2)",
+  "variable": false
+}, {
+  "signature": "78 01",
+  "extension": ["zlib"],
+  "offset": 0,
+  "description": "No Compression (no preset dictionary) Best speed (no preset dictionary) Default Compression (no preset dictionary) Best Compression (no preset dictionary) No Compression (with preset dictionary) Best speed (with preset dictionary) Default Compression (with preset dictionary) Best Compression (with preset dictionary)",
+  "variable": false
+}, {
+  "signature": "78 5E",
+  "extension": ["zlib"],
+  "offset": 0,
+  "description": "No Compression (no preset dictionary) Best speed (no preset dictionary) Default Compression (no preset dictionary) Best Compression (no preset dictionary) No Compression (with preset dictionary) Best speed (with preset dictionary) Default Compression (with preset dictionary) Best Compression (with preset dictionary)",
+  "variable": false
+}, {
+  "signature": "78 9C",
+  "extension": ["zlib"],
+  "offset": 0,
+  "description": "No Compression (no preset dictionary) Best speed (no preset dictionary) Default Compression (no preset dictionary) Best Compression (no preset dictionary) No Compression (with preset dictionary) Best speed (with preset dictionary) Default Compression (with preset dictionary) Best Compression (with preset dictionary)",
+  "variable": false
+}, {
+  "signature": "78 DA",
+  "extension": ["zlib"],
+  "offset": 0,
+  "description": "No Compression (no preset dictionary) Best speed (no preset dictionary) Default Compression (no preset dictionary) Best Compression (no preset dictionary) No Compression (with preset dictionary) Best speed (with preset dictionary) Default Compression (with preset dictionary) Best Compression (with preset dictionary)",
+  "variable": false
+}, {
+  "signature": "78 20",
+  "extension": ["zlib"],
+  "offset": 0,
+  "description": "No Compression (no preset dictionary) Best speed (no preset dictionary) Default Compression (no preset dictionary) Best Compression (no preset dictionary) No Compression (with preset dictionary) Best speed (with preset dictionary) Default Compression (with preset dictionary) Best Compression (with preset dictionary)",
+  "variable": false
+}, {
+  "signature": "78 7D",
+  "extension": ["zlib"],
+  "offset": 0,
+  "description": "No Compression (no preset dictionary) Best speed (no preset dictionary) Default Compression (no preset dictionary) Best Compression (no preset dictionary) No Compression (with preset dictionary) Best speed (with preset dictionary) Default Compression (with preset dictionary) Best Compression (with preset dictionary)",
+  "variable": false
+}, {
+  "signature": "78 BB",
+  "extension": ["zlib"],
+  "offset": 0,
+  "description": "No Compression (no preset dictionary) Best speed (no preset dictionary) Default Compression (no preset dictionary) Best Compression (no preset dictionary) No Compression (with preset dictionary) Best speed (with preset dictionary) Default Compression (with preset dictionary) Best Compression (with preset dictionary)",
+  "variable": false
+}, {
+  "signature": "78 F9",
+  "extension": ["zlib"],
+  "offset": 0,
+  "description": "No Compression (no preset dictionary) Best speed (no preset dictionary) Default Compression (no preset dictionary) Best Compression (no preset dictionary) No Compression (with preset dictionary) Best speed (with preset dictionary) Default Compression (with preset dictionary) Best Compression (with preset dictionary)",
+  "variable": false
+}, {
+  "signature": "62 76 78 32",
+  "extension": ["lzfse"],
+  "offset": 0,
+  "description": "LZFSE - Lempel-Ziv style data compression algorithm using Finite State Entropy coding. OSS by Apple.",
+  "variable": false
+}, {
+  "signature": "4F 52 43",
+  "extension": ["orc"],
+  "offset": 0,
+  "description": "Apache ORC (Optimized Row Columnar) file format",
+  "variable": false
+}, {
+  "signature": "4F 62 6A 01",
+  "extension": ["avro"],
+  "offset": 0,
+  "description": "Apache Avro binary file format",
+  "variable": false
+}, {
+  "signature": "53 45 51 36",
+  "extension": ["rc"],
+  "offset": 0,
+  "description": "RCFile columnar file format",
+  "variable": false
+}, {
+  "signature": "65 87 78 56",
+  "extension": ["p25", "obt"],
+  "offset": 0,
+  "description": "PhotoCap Object Templates",
+  "variable": false
+}, {
+  "signature": "55 55 aa aa",
+  "extension": ["pcv"],
+  "offset": 0,
+  "description": "PhotoCap Vector",
+  "variable": false
+}, {
+  "signature": "78 56 34",
+  "extension": ["pbt", "pdt", "pea", "peb", "pet", "pgt", "pict", "pjt", "pkt", "pmt"],
+  "offset": 0,
+  "description": "PhotoCap Template",
+  "variable": false
+}, {
+  "signature": "50 41 52 31",
+  "extension": null,
+  "offset": 0,
+  "description": "Apache Parquet columnar file format",
+  "variable": false
+}, {
+  "signature": "45 4D 58 32",
+  "extension": ["ez2"],
+  "offset": 0,
+  "description": "Emulator Emaxsynth samples",
+  "variable": false
+}, {
+  "signature": "45 4D 55 33",
+  "extension": ["ez3", "iso"],
+  "offset": 0,
+  "description": "Emulator III synth samples",
+  "variable": false
+}, {
+  "signature": "1B 4C 75 61",
+  "extension": ["luac"],
+  "offset": 0,
+  "description": "Lua bytecode",
+  "variable": false
+}, {
+  "signature": "62 6F 6F 6B 00 00 00 00 6D 61 72 6B 00 00 00 00",
+  "extension": ["alias"],
+  "offset": 0,
+  "description": "macOS file Alias  (Symbolic link)",
+  "variable": false
+}, {
+  "signature": "5B 5A 6F 6E 65 54 72 61 6E 73 66 65 72 5D",
+  "extension": ["Identifier"],
+  "offset": 0,
+  "description": "Microsoft Zone Identifier for URL Security Zones",
+  "variable": false
+}, {
+  "signature": "52 65 63 65 69 76 65 64",
+  "extension": ["eml"],
+  "offset": 0,
+  "description": "Email Message var5",
+  "variable": false
+}, {
+  "signature": "20 02 01 62 A0 1E AB 07 02 00 00 00",
+  "extension": ["tde"],
+  "offset": 0,
+  "description": "Tableau Datasource",
+  "variable": false
+}, {
+  "signature": "37 48 03 02 00 00 00 00 58 35 30 39 4B 45 59",
+  "extension": ["kdb"],
+  "offset": 0,
+  "description": "KDB file",
+  "variable": false
+}, {
+  "signature": "85 01 0C 03",
+  "extension": ["pgp"],
+  "offset": 0,
+  "description": "PGP file",
+  "variable": false
+}, {
+  "signature": "28 B5 2F FD",
+  "extension": ["zst"],
+  "offset": 0,
+  "description": "Zstandard compressed file",
+  "variable": false
+}, {
+  "signature": "3A 29 0A",
+  "extension": ["sml"],
+  "offset": 0,
+  "description": "Smile file",
+  "variable": false
+}, {
+  "signature": "4A 6F 79 21",
+  "extension": null,
+  "offset": 0,
+  "description": "Preferred Executable Format",
+  "variable": false
+}, {
+  "signature": "31 0A 30 30",
+  "extension": ["srt"],
+  "offset": 0,
+  "description": "SubRip File",
+  "variable": false
+}]
