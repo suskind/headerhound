@@ -1,7 +1,9 @@
 //
+// Open
 // https://wiki2.org/en/List_of_file_signatures
+// Run this script in browser console
 //
-let aFinal = [];
+const aFinal = [];
 document.querySelectorAll("table.wikitable tr").forEach((tr, trIdx) => {
   if (trIdx === 0) {
     return;
@@ -38,7 +40,7 @@ document.querySelectorAll("table.wikitable tr").forEach((tr, trIdx) => {
           extStr = ext.join('').replace(/\n/ig, ' ').replace(/[\ ]+/ig, ' ');
           ext = extStr.split(' ').map(e => e.trim());
         }
-        // thor for 53 5A 44 44 88 F0 27 33
+        // Thor hammer for 53 5A 44 44 88 F0 27 33
         if (ext.indexOf('setup.ex_)') > -1) {
           ext = ['ex_']
         }
@@ -53,4 +55,4 @@ document.querySelectorAll("table.wikitable tr").forEach((tr, trIdx) => {
 });
 // console.log(JSON.stringify(aFinal));
 copy(JSON.stringify(aFinal));
-console.log('done: Fix the following');
+console.log('Done: Fix the following');
