@@ -2,7 +2,7 @@
 Add, find and reverse file's headers
 
 ```
-$ ./headerhound.py show -h
+$> headerhound -h
 usage: headerhound [-h] [-f FILE] [-o OUTPUT] [-s SIGNATURE] [-sn SIGNATURE_NUMBER] [--all [ALL]] {list,add,show,match}
 
 positional arguments:
